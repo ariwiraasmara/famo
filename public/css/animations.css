@@ -1,0 +1,138 @@
+.dropdown-up {
+    overflow: hidden;
+    animation-name: dropup;
+    animation-duration: 0.5s;
+    transition: max-height 0.5s;
+}
+
+.dropdown-content {
+    overflow: hidden;
+    width: 100% !important;
+    z-index: 1;
+    animation-name: dropdown;
+    animation-duration: 0.5s;
+    transition: max-height 0.5s;
+}
+
+@keyframes dropup {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+        transition: max-height 1s;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: max-height 0s;
+    }
+}
+
+@keyframes dropdown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: max-height 0s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        transition: max-height 1s;
+    }
+}
+
+
+/* Animasi slide ke kanan */
+.slide-right-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.slide-right-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-right-leave {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.slide-right-leave-active {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Animasi slide ke kiri */
+.slide-left-enter {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.slide-left-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-left-leave {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.slide-left-leave-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Animasi fade in */
+.fadein {
+    animation:fadein 3s;
+}
+
+@keyframes fadein{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.fade-in-enter {
+    opacity: 0;
+}
+
+.fade-in-enter-active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Animasi fade out */
+.fade-out-leave {
+    opacity: 1;
+}
+
+.fade-out-leave-active {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Animasi slide dari bawah */
+.slide-from-bottom-enter {
+    transform: translateY(100%);
+}
+
+.slide-from-bottom-enter-active {
+    transform: translateY(0%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-from-bottom-leave {
+    transform: translateY(0%);
+}
+
+.slide-from-bottom-leave-active {
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}

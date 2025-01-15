@@ -1,0 +1,14 @@
+1. Pada halaman Dashboard:
+1.1. Tidak bisa menampilkan informasi recent member dan membership menggunakan <For> MillionJS
+1.2. Data tertukar ketika menggunakan <For> MillionJS
+
+2. Pada halaman My Member:
+2.1. Ketika User klik pop up modal User, treeview tidak berfungsi. Namun jika di klik lagi pada user berbeda, treeview bisa berfungsi kembali
+v 2.2. Ketika User klik pop up modal User, informasi "My Member" tidak muncul
+
+3. Pada halaman Profil:
+3.1. Perbaiki data file, ketika user upload data baru, sistem langsung menampilkannya
+3.2. Perbaiki view data file
+
+4. Pada halaman Login, ketika user submit data untuk login, sistem redirect terlalu lama
+5. Perbaiki kembali pencarian user, dimana user yang sudah jadi member dan ikut dalam membership tidak muncul dalam pencarian

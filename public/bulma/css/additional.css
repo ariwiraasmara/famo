@@ -1,0 +1,68 @@
+.box1 {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0.75em 1em -0.125em rgba(10, 10, 10, 0.5), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+    color: #3a3a3a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 -0.5em 1em -0.125em rgba(10, 10, 10, 0.5), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+    color: #3a3a3a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.is-rounded-left {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.is-rounded-right {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.item-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-top {
+    top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.nav-bottom {
+    bottom: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.is-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.is-sticky-top-2 {
+    top: 152px;
+    height: 150px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.is-rounded-full {
+    border-radius: 100%;
+}
+
+.overflow-vertical {
+    overflow-y: scroll;
+}

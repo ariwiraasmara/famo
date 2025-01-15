@@ -1,0 +1,1 @@
+1. try learn with Redux
